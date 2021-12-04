@@ -42,16 +42,15 @@ public class MazeGUI {
                 checkEdgeDirection(edge.getV1(), edge.getV2());
         }
     }
-
     /**
      * The method takes two vertices, and checks for their position.
      * Then the method checks for four possible cases where:
-     *
-     *      1. (x1,y1) cell is on the right of (x2,y2).
-     *      2. (x1,y1) cell is on the left of (x2,y2).
-     *      3. (x1,y1) cell is under (x2,y2).
-     *      4. (x1,y1) cell is above (x2,y2)
-     *
+     * <ul>
+     *           <li/>(x1,y1) cell is on the right of (x2,y2).
+     *           <li/>(x1,y1) cell is on the left of (x2,y2).
+     *           <li/>(x1,y1) cell is under (x2,y2).
+     *           <li/>(x1,y1) cell is above (x2,y2).
+     * </ul>
      * The method draws for each a line.
      *
      * @param v1 first vertex.
